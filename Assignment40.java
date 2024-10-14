@@ -1,0 +1,11 @@
+/*WAP where from  the given string input replace the 2 with Nothing.
+Example: String name= "kv no 2";*/
+public class Program1
+{
+    public static void main(String[] args)
+    {
+        String input="kv no 2";
+        String s1=input.replaceAll("[0-9]", " ");
+        System.out.println(s1);
+    }
+}
